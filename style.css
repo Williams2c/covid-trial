@@ -1,0 +1,45 @@
+
+body {
+    height: 100vh;
+    background: url(bk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+body:hover {
+    filter: blur(0px);
+}
+
+.container {
+    display: flex;
+     
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.space {
+    height: 10rem;
+}
+ hr {
+    border-color: rgb(42, 135, 207); 
+    border-width: 3px;
+    max-width: 30px;
+}
+.btn-secondary {
+background-color: rgb(42, 135, 207);
+border:rgb(42, 135, 207); 
+transition: transform 1s;
+/* padding: 1rem 2rem; */
+border-radius: 300px;
+text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(81, 156, 213);
+    transform: scale(1.2) translate(5px, 5px) 
+}
